@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="1"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/routine"
+        android:orderInCategory="2"
+        android:title="Routine"
+        />
+
+    <item
+        android:id="@+id/music"
+        android:orderInCategory="3"
+        android:title="@string/music_string" />
+
+    <item
+        android:id="@+id/graph"
+        android:orderInCategory="4"
+        android:title="Graph" />
+
+    <item
+        android:id="@+id/calories"
+        android:orderInCategory="5"
+        android:title="calories" />
+</menu>
